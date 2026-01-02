@@ -9,10 +9,8 @@ A scalable data pipeline implementing the medallion architecture (Bronze → Sil
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Pipeline Stages](#pipeline-stages)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
