@@ -11,6 +11,7 @@ A scalable data pipeline implementing the medallion architecture (Bronze → Sil
 - [Installation](#installation)
 - [Pipeline Stages](#pipeline-stages)
 - [Configuration](#configuration)
+- [Workflow Orchestration](#workflow-orchestration)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -32,6 +33,9 @@ The pipeline follows the medallion architecture with three distinct layers:
 - **Bronze Layer**: Raw data ingestion with minimal transformation
 - **Silver Layer**:  Cleaned, validated, and deduplicated data
 - **Gold Layer**: Business-level aggregations and analytics-ready datasets
+
+<img width="20005" height="11129" alt="image" src="https://github.com/user-attachments/assets/5d256cd9-de01-4d92-a838-8c3b986c8e78" />
+
 
 ## Features
 
@@ -65,9 +69,6 @@ The pipeline follows the medallion architecture with three distinct layers:
    - Update configuration files with your storage account details
    - Set up access credentials (Service Principal, Access Keys, etc.)
 
-   ```
-
-
 ## 🔄 Pipeline Stages
 
 ### Bronze Layer
@@ -88,6 +89,13 @@ The pipeline follows the medallion architecture with three distinct layers:
 - KPI calculations
 - Pre-joined tables for reporting
 - Optimized for query performance
+
+## Workflow Orchestration
+
+Databricks Lakeflow Job/Workflow is used for this purpose to automatically run the batch ingestion daily after business hours(11:00 PM PST). Complete code exists in setup/workflow.json
+
+
+<img width="617" height="93" alt="DatabricksWorkflow" src="https://github.com/user-attachments/assets/0fbd8b81-c22e-4edd-a5db-f2b2c1426578" />
 
 
 ## 🤝 Contributing
