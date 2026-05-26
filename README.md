@@ -12,6 +12,7 @@ A scalable data pipeline implementing the medallion architecture (Bronze → Sil
 - [Pipeline Stages](#pipeline-stages)
 - [Configuration](#configuration)
 - [Workflow Orchestration](#workflow-orchestration)
+- [BI Sales Dashboard](#Dashboard)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -96,6 +97,11 @@ Databricks Lakeflow Job/Workflow is used for this purpose to automatically run t
 
 
 <img width="617" height="93" alt="DatabricksWorkflow" src="https://github.com/user-attachments/assets/0fbd8b81-c22e-4edd-a5db-f2b2c1426578" />
+
+## Dashboard
+
+Databrcks Genie Code was used to built the dashboard.
+<img width="927" height="720" alt="image" src="https://github.com/user-attachments/assets/bf4cb3d7-804b-4592-ab02-b2999d78118a" />
 
 
 ## 🤝 Contributing
